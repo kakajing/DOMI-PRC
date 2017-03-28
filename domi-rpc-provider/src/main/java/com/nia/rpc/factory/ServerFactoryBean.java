@@ -3,12 +3,14 @@ package com.nia.rpc.factory;
 import com.nia.rpc.core.bootstrap.ServerBuilder;
 import com.nia.rpc.core.server.Server;
 import com.nia.rpc.core.server.ServerImpl;
+import lombok.Data;
 import org.springframework.beans.factory.FactoryBean;
 
 /**
  * Author 卡卡
  * Created by jing on 2017/3/29.
  */
+@Data
 public class ServerFactoryBean implements FactoryBean<Object> {
 
     private Class<?> serviceInterface;

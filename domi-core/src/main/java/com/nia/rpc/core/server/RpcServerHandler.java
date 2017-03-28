@@ -28,7 +28,7 @@ public class RpcServerHandler extends SimpleChannelInboundHandler<Request> {
 
         String methodName = msg.getMethod();
         Object[] params = msg.getParams();
-        Class<?> parameterTypes = msg.getParameterTypes();
+        Class<?>[] parameterTypes = msg.getParameterTypes();
         long requestId = msg.getRequestId();
 
         //通过反射来获取客户端所要调用的方法并执行

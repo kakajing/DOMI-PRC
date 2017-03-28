@@ -10,6 +10,7 @@
     <modules>
         <module>domi-core</module>
         <module>domi-rpc-provider</module>
+        <module>domi-example</module>
     </modules>
     <packaging>pom</packaging>
 
