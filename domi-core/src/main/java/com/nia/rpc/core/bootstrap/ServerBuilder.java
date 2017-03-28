@@ -30,7 +30,7 @@ public class ServerBuilder {
         return this;
     }
 
-    public ServerBuilder serviceImpl(String serviceImpl){
+    public ServerBuilder serviceImpl(Object serviceImpl){
         this.serviceImpl = serviceImpl;
         return this;
     }

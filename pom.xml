@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>domi-core</module>
+        <module>domi-rpc-provider</module>
     </modules>
     <packaging>pom</packaging>
 
